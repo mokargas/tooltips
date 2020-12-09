@@ -4,7 +4,8 @@
   "description": "Basic Tooltips in React",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --inline --hot",
+    "dev": "webpack serve --inline --hot",
+    "start": "node server.js",
     "build": "webpack --mode=production"
   },
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "@hot-loader/react-dom": "^17.0.1",
     "clsx": "^1.1.1",
+    "express": "^4.17.1",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
