@@ -1,0 +1,29 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react":{
+      "pragma": "React", 
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-console": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals":{
+    "Float32Array": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

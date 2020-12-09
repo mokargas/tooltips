@@ -1,0 +1,18 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    ["react-hot-loader/babel"],
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragmaFrag": "Fragment"
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
